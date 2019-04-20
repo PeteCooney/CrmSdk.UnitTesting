@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+
+    "settings": {
+      "documentationRules": {
+        "copyrightText": "<copyright file=\"{fileName}\" author=\"{authorName}\">\n  Copyright © {year} - {authorName}\n</copyright>",
+        "documentationCulture": "en-GB",
+        "variables": {
+          "authorName": "Peter Cooney",
+          "year": "2018"
+        },
+        "xmlHeader": false
+      }
+    }
+}

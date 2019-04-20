@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.CrmSdk.UnitTesting", "Microsoft.CrmSdk.UnitTesting\Microsoft.CrmSdk.UnitTesting.csproj", "{D67A49DB-C52A-4203-92A7-EA67CE4C43A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{BB1E0617-FDC7-4636-A2DC-55DA2613A56A}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Quality", "Code Quality", "{DF2BD9DA-B1F5-4F6E-8D6B-C3E8E0647323}"
+	ProjectSection(SolutionItems) = preProject
+		Ruleset.ruleset = Ruleset.ruleset
+		StyleCop.json = StyleCop.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.CrmSdk.UnitTesting.Examples", "Microsoft.CrmSdk.UnitTesting.Examples\Microsoft.CrmSdk.UnitTesting.Examples.csproj", "{BBACB4B0-8611-4777-B3A6-B50F9D9AA316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.CrmSdk.UnitTesting.Examples.Tests", "Microsoft.CrmSdk.UnitTesting.Examples.Tests\Microsoft.CrmSdk.UnitTesting.Examples.Tests.csproj", "{A249902E-79F7-4F54-8DB3-69AC2DEBC7A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet Package", "NuGet Package", "{D0B8B910-D443-4AD5-9436-D8DA53C3B647}"
+	ProjectSection(SolutionItems) = preProject
+		CreatePackage.ps1 = CreatePackage.ps1
+		Xrm.UnitTesting.nupkg = Xrm.UnitTesting.nupkg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D67A49DB-C52A-4203-92A7-EA67CE4C43A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67A49DB-C52A-4203-92A7-EA67CE4C43A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67A49DB-C52A-4203-92A7-EA67CE4C43A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67A49DB-C52A-4203-92A7-EA67CE4C43A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBACB4B0-8611-4777-B3A6-B50F9D9AA316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBACB4B0-8611-4777-B3A6-B50F9D9AA316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBACB4B0-8611-4777-B3A6-B50F9D9AA316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBACB4B0-8611-4777-B3A6-B50F9D9AA316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A249902E-79F7-4F54-8DB3-69AC2DEBC7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A249902E-79F7-4F54-8DB3-69AC2DEBC7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A249902E-79F7-4F54-8DB3-69AC2DEBC7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A249902E-79F7-4F54-8DB3-69AC2DEBC7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {901B2E1F-9B12-4BD2-B7E2-2ECDC4767172}
+	EndGlobalSection
+EndGlobal

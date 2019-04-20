@@ -1,13 +1,16 @@
+// <copyright file="AssemblyInfo.cs" author="Peter Cooney">
+//   Copyright © 2019 - Peter Cooney
+// </copyright>
+
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Microsoft.CrmSdk.UnitTesting.Examples.Tests")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Test fixtures for sample classes to demonstrate Microsoft.CrmSdk.UnitTesting")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Peter Cooney")]
 [assembly: AssemblyProduct("Microsoft.CrmSdk.UnitTesting.Examples.Tests")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCopyright("Copyright © 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

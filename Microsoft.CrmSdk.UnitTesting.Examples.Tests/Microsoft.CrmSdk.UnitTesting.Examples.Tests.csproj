@@ -29,7 +29,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>..\CodeQuality\Ruleset.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\Ruleset.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>bin\Debug\Microsoft.CrmSdk.UnitTesting.Examples.Tests.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -40,7 +40,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\Microsoft.CrmSdk.UnitTesting.Examples.Tests.xml</DocumentationFile>
-    <CodeAnalysisRuleSet>..\CodeQuality\Ruleset.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\Ruleset.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">

@@ -25,7 +25,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>..\CodeQuality\Ruleset.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\Ruleset.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>bin\Debug\Microsoft.CrmSdk.UnitTesting.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -35,7 +35,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>..\CodeQuality\Ruleset.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\Ruleset.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>bin\Release\Microsoft.CrmSdk.UnitTesting.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>

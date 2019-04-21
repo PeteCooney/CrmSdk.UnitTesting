@@ -9,7 +9,8 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">GPL-2.0-only</license>
     <projectUrl>https://github.com/PeteCooney/CrmSdk.UnitTesting</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/PeteCooney/CrmSdk.UnitTesting/master/CrmSdk.UnitTesting/CrmSdk.UnitTesting.ico</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/PeteCooney/CrmSdk.UnitTesting/master/CrmSdk.UnitTesting/CrmSdk.UnitTesting.png</iconUrl>
+    <repository type="git" url="https://github.com/PeteCooney/CrmSdk.UnitTesting"></repository>
     <copyright>$copyright$</copyright>
     <tags>mocking mocks unittesting unittest xrm dynamics</tags>
   </metadata>

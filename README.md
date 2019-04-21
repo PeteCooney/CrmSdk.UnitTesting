@@ -1,4 +1,4 @@
-# Microsoft.CrmSdk.UnitTesting
+# CrmSdk.UnitTesting
 
 A framework, built on Moq, for performing Unit Testing against a Microsoft Dynamics 365 CE organization
 
@@ -10,7 +10,7 @@ Built on the widely supported Moq framework, this project is intended to enable 
 
 ### Installation
 
-A NuGet package is available for installing & using this framework here: https://www.nuget.org/packages/Microsoft.CrmSdk.UnitTesting/
+A NuGet package is available for installing & using this framework here: https://www.nuget.org/packages/CrmSdk.UnitTesting/
 
 ### Examples
 

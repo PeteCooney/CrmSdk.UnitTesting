@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.CrmSdk.UnitTesting</id>
+    <version>$version$</version>
+    <description>$description$</description>
+    <authors>$author$</authors>
+    <title>$title$</title>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">GPL-2.0-only</license>
+    <projectUrl>https://github.com/PeteCooney/Microsoft.CrmSdk.UnitTesting</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/PeteCooney/Microsoft.CrmSdk.UnitTesting/master/Microsoft.CrmSdk.UnitTesting/Microsoft.CrmSdk.UnitTesting.ico</iconUrl>
+    <copyright>$copyright$</copyright>
+    <tags>mocking mocks unittesting unittest xrm dynamics</tags>
+  </metadata>
+</package>

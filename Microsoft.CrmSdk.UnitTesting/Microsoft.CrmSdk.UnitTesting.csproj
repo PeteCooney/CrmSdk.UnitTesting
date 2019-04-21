@@ -111,12 +111,13 @@
     <Compile Include="TracingServiceMock.cs" />
     <Compile Include="WorkflowContextMock.cs" />
     <Compile Include="WorkflowTest{TWorkflow}.cs" />
-    <Compile Include="XrmTest.cs" />
+    <Compile Include="TestBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\..\Xrm.Tooling\StyleCop.json">
       <Link>StyleCop.json</Link>
     </AdditionalFiles>
+    <None Include="Microsoft.CrmSdk.UnitTesting.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

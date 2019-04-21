@@ -1,4 +1,4 @@
-﻿// <copyright file="XrmTest.cs" author="Peter Cooney">
+﻿// <copyright file="TestBase.cs" author="Peter Cooney">
 //   Copyright © 2019 - Peter Cooney
 // </copyright>
 
@@ -10,7 +10,7 @@ namespace Microsoft.CrmSdk.UnitTesting
     /// Abstract base class for a test fixture
     /// </summary>
     [TestClass]
-    public abstract class XrmTest
+    public abstract class TestBase
     {
         /// <summary>
         /// Gets an instance of <see cref="IOrganizationServiceMock"/> for mocking calls to Dynamics 365

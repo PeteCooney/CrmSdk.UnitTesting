@@ -13,7 +13,7 @@ namespace Microsoft.CrmSdk.UnitTesting
     /// </summary>
     /// <typeparam name="TWorkflow">The workflow class under test. Must implement <see cref="CodeActivity"/></typeparam>
     [TestClass]
-    public abstract class WorkflowTest<TWorkflow> : XrmTest
+    public abstract class WorkflowTest<TWorkflow> : TestBase
         where TWorkflow : CodeActivity, new()
     {
         /// <summary>

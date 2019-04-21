@@ -12,7 +12,7 @@ namespace Microsoft.CrmSdk.UnitTesting
     /// </summary>
     /// <typeparam name="TPlugin">The plugin class under test. Must implement <see cref="IPlugin"/></typeparam>
     [TestClass]
-    public abstract class PluginTest<TPlugin> : XrmTest
+    public abstract class PluginTest<TPlugin> : TestBase
         where TPlugin : IPlugin, new()
     {
         /// <summary>
